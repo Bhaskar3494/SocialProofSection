@@ -1,0 +1,82 @@
+@media only screen and (max-width: 600px){
+  body{
+    position: relative;
+  }
+  .background-image-top{
+    width: auto;
+    height: 300px;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .background-image-bottom{
+    width: auto;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.main-content{
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 10% 5% 10% 5%;
+}
+
+.rating-card1{
+  position: relative;
+  display: block;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 0 5% 5% 5%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.rating-card2{
+  position: relative;
+  display: block;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 0 5% 5% 5%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.rating-card3{
+  display: block;
+  position: relative;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 0 5% 10% 5%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.rating-text{
+  display: block;
+}
+
+.feedback-card1{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 5% 10% 5%;
+}
+.feedback-card2{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 5% 10% 5%;
+}
+.feedback-card3{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 5% 10% 5%;
+}
+}

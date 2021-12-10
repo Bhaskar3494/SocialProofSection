@@ -1,0 +1,162 @@
+body{
+  margin: 0;
+}
+
+.background-image-top{
+  width: 35%;
+  height: 300px;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.background-image-bottom{
+  width: 65%;
+  height: 500px;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.main-content{
+  width: 25%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 5%;
+  display: inline-block;
+}
+.main-heading{
+  color: hsl(300, 43%, 22%);
+  font-family: 'Spartan', sans-serif;
+  margin: 0 0 10px 0;
+}
+.main-para{
+  font-size: 13px;
+  color: hsl(300, 43%, 22%);
+  font-family: 'Spartan', sans-serif;
+}
+
+.rating-card1{
+  width: 31%;
+  height: auto;
+  background-color: hsl(300, 24%, 96%);
+  display: inline-block;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: hsl(300, 43%, 22%);
+  font-family: 'Spartan', sans-serif;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 13%;
+  font-size: 13px;
+}
+
+.rating-card2{
+  width: 31%;
+  height: auto;
+  background-color: hsl(300, 24%, 96%);
+  display: inline-block;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: hsl(300, 43%, 22%);
+  font-family: 'Spartan', sans-serif;
+  position: absolute;
+margin-top: 11%;
+  margin-left: 15%;
+  font-size: 13px;
+}
+
+.rating-card3{
+  width: 31%;
+  height: auto;
+  background-color: hsl(300, 24%, 96%);
+  display: inline-block;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: hsl(300, 43%, 22%);
+  font-family: 'Spartan', sans-serif;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 17%;
+  font-size: 13px;
+}
+
+
+.stars{
+  display: inline-block;
+}
+
+.rating-text{
+  display: inline-block;
+  margin-left: 3%;
+}
+
+
+
+
+.feedback-card1{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 11px;
+  line-height: 1rem;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.customer-image{
+  width: 11%;
+  height: auto;
+  display: inline-block;
+  border-radius: 100%;
+  float: left;
+  margin-top: 0;
+  margin-right: 5%;
+}
+.customer-name{
+  margin-top: 0;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0;
+}
+.customer-text{
+  margin-top: 0;
+  color: hsl(333, 80%, 67%);
+}
+.feedback-text{
+margin-top: 10%;
+  color: hsl(300, 24%, 96%);
+}
+
+
+.feedback-card2{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 11px;
+  line-height: 1rem;
+  margin-left: 40%;
+  margin-top: 7%;
+}
+
+.feedback-card3{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 11px;
+  line-height: 1rem;
+  margin-left: 65%;
+  margin-top: 9%;
+}
